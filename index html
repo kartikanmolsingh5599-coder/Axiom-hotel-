@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Axiom Hotel | Luxury Stay</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f0f0f;
+    color:white;
+}
+header{
+    background:#000;
+    padding:20px;
+    text-align:center;
+}
+header h1{
+    color:#d4af37;
+    margin:0;
+}
+nav{
+    margin-top:10px;
+}
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1566073771259-6a8506099945') no-repeat center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+.hero h2{
+    font-size:50px;
+    background:rgba(0,0,0,0.6);
+    padding:20px;
+}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#d4af37;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+}
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+.rooms{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+.room{
+    background:#1a1a1a;
+    padding:20px;
+    width:280px;
+    border-radius:10px;
+}
+.room img{
+    width:100%;
+    border-radius:10px;
+}
+footer{
+    background:black;
+    padding:20px;
+    text-align:center;
+    color:#999;
+}
+@media(max-width:768px){
+    .rooms{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Axiom Hotel</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div>
+        <h2>Experience Luxury & Comfort</h2>
+        <a class="btn" href="https://wa.me/919999999999">Book Now</a>
+    </div>
+</div>
+
+<section id="about">
+    <h2 style="color:#d4af37;">About Us</h2>
+    <p>Axiom Hotel offers premium rooms with modern facilities, 24/7 service, and a luxurious stay experience in your city.</p>
+</section>
+
+<section id="rooms">
+    <h2 style="color:#d4af37;">Our Rooms</h2>
+    <div class="rooms">
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85" alt="">
+            <h3>Deluxe Room</h3>
+            <p>Starting from ₹999 / night</p>
+        </div>
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a" alt="">
+            <h3>Executive Suite</h3>
+            <p>Starting from ₹1999 / night</p>
+        </div>
+        <div class="room">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="">
+            <h3>Family Room</h3>
+            <p>Starting from ₹2499 / night</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 style="color:#d4af37;">Contact Us</h2>
+    <p>📍 Shiamgir, India</p>
+    <p>📞 +91 99999 99999</p>
+    <p>📧 axiomhotel@email.com</p>
+</section>
+
+<footer>
+    © 2026 Axiom Hotel | All Rights Reserved
+</footer>
+
+</body>
+</html>
